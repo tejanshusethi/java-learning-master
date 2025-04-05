@@ -1,0 +1,10 @@
+*.exe
+*.class
+*.json
+*.bin
+.vscode/
+.cph/
+.tmp.driveupload/
+.tmp.drivedownload/
+tempCodeRunnerFile.cpp
+*.ini
