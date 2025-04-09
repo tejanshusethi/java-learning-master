@@ -11,6 +11,20 @@ public class removeduplicates {
          }
          return k;
     }
+    public static int removeduplicates2(int []nums){
+        int n=nums.length;
+        if(n<=2){
+            return n;
+        }
+        int k=2;
+        for(int i=2;i<=n;i++){
+            if(nums[i]!=nums[k-2]){
+                nums[k]=nums[i];
+                k++;
+            }
+        }
+        return k;
+    }
     // we have to do inplace remove duplicates and return k number jo hum duplicate hatake array mein return karenge 
     public static void main(String[] args) {
         
