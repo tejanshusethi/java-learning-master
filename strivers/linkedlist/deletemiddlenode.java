@@ -31,9 +31,9 @@ public class deletemiddlenode {
         if(head==null||head.next==null)return null;
         Node slow=head;
         Node fast=head;
-        while(fast.next.next!=null&&fast.next.next!=null){
+        while(fast.next.next!=null&&fast.next.next.next!=null){
             slow=slow.next;
-            fast=fast.next;
+            fast=fast.next.next;
         }
         // 12345
         // slow-2,3->slow.next

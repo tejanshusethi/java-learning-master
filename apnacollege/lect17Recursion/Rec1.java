@@ -80,6 +80,7 @@ public class Rec1 {
             return calcPowlog(x, n / 2) * calcPowlog(x, n / 2) * x;
         }
     }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
